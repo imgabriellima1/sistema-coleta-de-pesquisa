@@ -31,6 +31,8 @@ class EntrevistadorActivity : AppCompatActivity() {
                 EspontaneaActivity::class.java
             )
 
+            intent.putExtra("pesquisaCompleta", true)
+
             startActivity(intent)
         }
 
@@ -40,6 +42,8 @@ class EntrevistadorActivity : AppCompatActivity() {
                 this,
                 EspontaneaActivity::class.java
             )
+
+            intent.putExtra("pesquisaCompleta", false)
 
             startActivity(intent)
         }
