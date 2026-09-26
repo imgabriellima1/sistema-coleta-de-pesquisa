@@ -55,6 +55,11 @@ class EntrevistadorActivity : AppCompatActivity() {
                 EstimuladaActivity::class.java
             )
 
+            intent.putExtra(
+                "pesquisaCompleta",
+                false
+            )
+
             startActivity(intent)
         }
 
