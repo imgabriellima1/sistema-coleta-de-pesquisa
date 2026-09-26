@@ -38,8 +38,8 @@ class MainActivity : AppCompatActivity() {
                     startActivity(intent)
                 }
 
-                usuario == "entrevistador" &&
-                        senha == "entrevistador" -> {
+                usuario == "entrevistado" &&
+                        senha == "entrevistado" -> {
 
                     val intent = Intent(
                         this,
